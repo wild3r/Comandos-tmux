@@ -1,0 +1,19 @@
+comandos tmux.
+
+Control + b + c 		=  Crea una nueva ventana
+Control + b + % 		=  Divide verticalmente
+Control + b + " 		=  Divide horizontalmente
+Control + b + flechas   =  Aumenta espacio de trabajo
+Control + b + [0-9] 	=  Ingresa a una session especifica
+Control + b + w			=  Abre una ventana a partir de una lista
+Control + b + n			=  Abre una próxima ventana (next)
+Control + b + p			=  Abre una anterior ventana (previus)
+Control + b + ? 		=  visualiza lista de comandos que se puede usar
+Control + d     	 	=  Destruye session donde se encuentra
+Control + b + d    	 	=  Salir de una session
+
+
+tmux a 					=  Ingresa a una session salida
+tmux new -s + nombre  	=  crea una nueva session
+tmux ls     	 		=  Lista sessiones activas
+
